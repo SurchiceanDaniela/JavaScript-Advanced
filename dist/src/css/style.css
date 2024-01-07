@@ -1,0 +1,169 @@
+html {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: auto;
+}
+body {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #fff !important;
+  /*background-color: rgba(163, 78, 78, 0.2) !important;*/
+  background-color: transparent !important;
+  -webkit-text-size-adjust: 100% !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-family: poppins !important;
+  background: #00000029 !important;
+}
+/**CLASSI GENERALI**/
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 35px !important;
+  font-weight: 700 !important;
+}
+p {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+/**SECTION**/
+section#header {
+  padding: 20px 20px 20px 20px;
+}
+section#searchsection {
+  padding: 150px 20px 150px 20px;
+}
+section#footer {
+  margin-top: 20%;
+  padding: 20px 20px 20px 20px;
+}
+
+img#logo {
+  width: 180px;
+}
+img#github {
+  width: 30px;
+  margin-top: 15px;
+}
+input#search {
+  width: 100% !important;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px !important;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.btn-search {
+  color: #000 !important;
+  background-color: #cbb77c !important;
+  border-color: #cbb77c !important;
+  border-radius: 30px !important;
+  padding: 5px 10px 5px 10px !important;
+  font-size: 18px !important;
+}
+.btn-reset {
+  color: #fff !important;
+  background-color: #484848 !important;
+  border-color: #484848 !important;
+  border-radius: 30px !important;
+  padding: 5px 10px 5px 10px !important;
+  font-size: 18px !important;
+}
+#btnBox {
+  padding: 10px;
+}
+div#Libro {
+  padding-left: 10px;
+  text-align: center !important;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img#copertinaLibro {
+  width: 100%;
+  padding: 5px;
+}
+div#infolibro {
+  padding: 5px;
+}
+h2.titoloRicerca {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+}
+h3.titololibro {
+  font-size: 16px;
+  font-weight: bold;
+}
+h4.autore {
+  font-size: 15px;
+  font-weight: 300;
+}
+h5.anno,
+p.descLibro {
+  padding-top: 10px !important;
+  font-weight: 300;
+  font-size: 11px !important;
+  word-wrap: break-word;
+}
+button.bottoneDescrizioneLibro {
+  padding: 2px 5px 2px 5px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 0px;
+  background: #cbb77d;
+  width: 100%;
+}
+button.backButton {
+  padding: 2px 5px 2px 5px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 0px;
+  color: #fff !important;
+  background-color: #484848 !important;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-3,
+  .col-8,
+  .col-4 {
+    width: 100% !important;
+  }
+  .col-2 {
+    display: none;
+  }
+  section#searchsection {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+  button#btn1 {
+    margin-bottom: 10px;
+  }
+}
