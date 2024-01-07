@@ -1,3 +1,27 @@
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/SurchiceanDaniela/JavaScript-Advanced.git">
+    <img src="https://celadon-cendol-b985d5.netlify.app/src/img/logo.png" alt="Mosaic Books Logo" width="500">
+  </a>
+
+<h3 align="center">Mosaic Books: the search engine for books </h3>
+<h4 align="center">The personalised guide that can search thousands of books: genres, authors and titles.</h4>
+
+  <p align="center">
+    Exam project of the Start2Impact University
+    <br />
+    <br />
+    <a href="https://github.com/SurchiceanDaniela/JavaScript-Advanced.git">View Demo</a>
+    ·
+    <a href="https://celadon-cendol-b985d5.netlify.app/">Try the application</a>
+    
+  </p>
+
+</div>
+
+<br>
+
+
 ## Table of Contents
 
 ### Introduction
